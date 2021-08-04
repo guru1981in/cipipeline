@@ -26,7 +26,7 @@ Why Slingshot?
 
 1. **Initial Machine Setup**
 
-    First time running the starter kit? Then complete the [Initial Machine Setup](#initial-machine-setup).
+    First time running the starter kit? Ten complete the [Initial Machine Setup](#initial-machine-setup).
 
 2. **Click "Use this template"**
 
