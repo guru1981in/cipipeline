@@ -21,6 +21,29 @@ jobs:
     steps:
       - checkout
       - run: npm install node-sass@6.0.1
+      - run: npm install @babel/cli@7.14.8  
+      - run: npm install babel-jest@27.0.6
+      - run: npm install jest@27.0.6
+      - run: npm install browser-sync@2.27.5
+      - run: npm install acorn@8.4.1
+      - run: npm install webpack@5.48.0
+      - run: npm install webpack-bundle-analyzer@4.4.2
+      - run: npm install concurrently@6.2.0
+      - run: npm install open-cli@7.0.0
+      - run: npm install replace@1.2.1
+      - run: npm install html-webpack-plugin@5.3.2
+      - run: npm update ssri --depth 4
+      - run: npm update watchpack --depth 2
+      - run: npm update cssnano-preset-default --depth 2
+      - run: npm update @babel/register --depth 2
+      - run: npm update terser-webpack-plugin --depth 2 
+      - run: npm update istanbul-reports --depth 5 
+      - run: npm update minimist --depth 15
+      - run: npm update dot-prop --depth 6
+      - run: npm update handlebars --depth 6
+      - run: npm update tree-kill --depth 2 
+      - run: npm update acorn --depth 3
+      - run: npm update kind-of --depth 24
       - run: npm audit
 
 workflows:
