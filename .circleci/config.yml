@@ -20,6 +20,7 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - checkout
+      - run: npm install node-sass@6.0.1
       - run: npm audit
 
 workflows:
